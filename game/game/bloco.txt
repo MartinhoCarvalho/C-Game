@@ -1,0 +1,10 @@
+pedra
+mole
+duro
+aluminio
+carvao
+ferro
+ouro
+frango
+buraco
+escada

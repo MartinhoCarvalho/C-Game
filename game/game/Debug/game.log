@@ -1,0 +1,61 @@
+﻿Build started 22/01/2014 18:41:53.
+     1>Project "C:\Users\marti_000\Documents\c++\poo\trabalho\miner_game\game\game\game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Jogo.cpp
+         Jogo.cpp
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\mineiro.h(103): warning C4522: 'Mineiro' : multiple assignment operators specified
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(279): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(282): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(317): warning C4930: 'std::stringstream pal(void)': prototyped function not called (was a variable definition intended?)
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(825): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(830): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(880): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(881): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\marti_000\documents\c++\poo\trabalho\miner_game\game\game\jogo.cpp(886): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\marti_000\Documents\c++\poo\trabalho\miner_game\game\Debug\game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\marti_000\Documents\c++\poo\trabalho\miner_game\game\Debug\game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\marti_000\Documents\c++\poo\trabalho\miner_game\game\Debug\game.lib" /MACHINE:X86 Debug\Bebida_Energetica.obj
+         Debug\Bloco.obj
+         Debug\Consola.obj
+         Debug\Dinamite_bloco.obj
+         Debug\Energia.obj
+         Debug\ERROR_Exception.obj
+         Debug\Escada.obj
+         Debug\Frigorifico_Portatil.obj
+         Debug\GLOBALOPERATOR.obj
+         Debug\Holofote.obj
+         Debug\Isqueiro.obj
+         Debug\Jogo.obj
+         Debug\Lancheira_campismo.obj
+         Debug\Lanterna.obj
+         Debug\Lata_Atum.obj
+         Debug\Luz.obj
+         Debug\main.obj
+         Debug\Martelo_Pneumatico.obj
+         Debug\Mina.obj
+         Debug\Mineiro.obj
+         Debug\Mochila.obj
+         Debug\Mochila_heavy_duty.obj
+         Debug\Mochila_pro.obj
+         Debug\Mochila_Simples.obj
+         Debug\Pedra.obj
+         Debug\Picareta.obj
+         Debug\Picareta_Automatica.obj
+         Debug\Picareta_simples.obj
+         Debug\Terra_Aluminio.obj
+         Debug\Terra_Carvao.obj
+         Debug\Terra_Diamante.obj
+         Debug\Terra_Ferro.obj
+         Debug\Terra_frango.obj
+         Debug\Terra_Ouro.obj
+         Debug\Terreno_Duro.obj
+         Debug\Terreno_mole.obj
+         Debug\Twist.obj
+         Debug\Utensilios.obj
+         Debug\Vazio.obj
+         Debug\Viga.obj
+         game.vcxproj -> C:\Users\marti_000\Documents\c++\poo\trabalho\miner_game\game\Debug\game.exe
+     1>Done Building Project "C:\Users\marti_000\Documents\c++\poo\trabalho\miner_game\game\game\game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.89

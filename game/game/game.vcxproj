@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC53FB38-8B10-4DFA-8037-D57E85F25B6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>game</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bebida_Energetica.cpp" />
+    <ClCompile Include="Bloco.cpp" />
+    <ClCompile Include="Consola.cpp" />
+    <ClCompile Include="Dinamite_bloco.cpp" />
+    <ClCompile Include="Energia.cpp" />
+    <ClCompile Include="ERROR_Exception.cpp" />
+    <ClCompile Include="Escada.cpp" />
+    <ClCompile Include="Frigorifico_Portatil.cpp" />
+    <ClCompile Include="GLOBALOPERATOR.cpp" />
+    <ClCompile Include="Holofote.cpp" />
+    <ClCompile Include="Isqueiro.cpp" />
+    <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="Lancheira_campismo.cpp" />
+    <ClCompile Include="Lanterna.cpp" />
+    <ClCompile Include="Lata_Atum.cpp" />
+    <ClCompile Include="Luz.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Martelo_Pneumatico.cpp" />
+    <ClCompile Include="Mina.cpp" />
+    <ClCompile Include="Mineiro.cpp" />
+    <ClCompile Include="Mochila.cpp" />
+    <ClCompile Include="Mochila_heavy_duty.cpp" />
+    <ClCompile Include="Mochila_pro.cpp" />
+    <ClCompile Include="Mochila_Simples.cpp" />
+    <ClCompile Include="Pedra.cpp" />
+    <ClCompile Include="Picareta.cpp" />
+    <ClCompile Include="Picareta_Automatica.cpp" />
+    <ClCompile Include="Picareta_simples.cpp" />
+    <ClCompile Include="Terra_Aluminio.cpp" />
+    <ClCompile Include="Terra_Carvao.cpp" />
+    <ClCompile Include="Terra_Diamante.cpp" />
+    <ClCompile Include="Terra_Ferro.cpp" />
+    <ClCompile Include="Terra_frango.cpp" />
+    <ClCompile Include="Terra_Ouro.cpp" />
+    <ClCompile Include="Terreno_Duro.cpp" />
+    <ClCompile Include="Terreno_mole.cpp" />
+    <ClCompile Include="Twist.cpp" />
+    <ClCompile Include="Utensilios.cpp" />
+    <ClCompile Include="Vazio.cpp" />
+    <ClCompile Include="Viga.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bebida_Energetica.h" />
+    <ClInclude Include="Bloco.h" />
+    <ClInclude Include="Consola.h" />
+    <ClInclude Include="Dinamite_bloco.h" />
+    <ClInclude Include="Energia.h" />
+    <ClInclude Include="ERROR_Exception.h" />
+    <ClInclude Include="Escada.h" />
+    <ClInclude Include="Frigorifico_Portatil.h" />
+    <ClInclude Include="GLOBALOPERATOR.h" />
+    <ClInclude Include="Holofote.h" />
+    <ClInclude Include="Isqueiro.h" />
+    <ClInclude Include="Jogo.h" />
+    <ClInclude Include="Lancheira_campismo.h" />
+    <ClInclude Include="Lanterna.h" />
+    <ClInclude Include="Lata_Atum.h" />
+    <ClInclude Include="Luz.h" />
+    <ClInclude Include="Martelo_Pneumatico.h" />
+    <ClInclude Include="Mina.h" />
+    <ClInclude Include="Mineiro.h" />
+    <ClInclude Include="Mochila.h" />
+    <ClInclude Include="Mochila_heavy_duty.h" />
+    <ClInclude Include="Mochila_pro.h" />
+    <ClInclude Include="Mochila_Simples.h" />
+    <ClInclude Include="Pedra.h" />
+    <ClInclude Include="Picareta.h" />
+    <ClInclude Include="Picareta_Automatica.h" />
+    <ClInclude Include="Picareta_simples.h" />
+    <ClInclude Include="Terra_Aluminio.h" />
+    <ClInclude Include="Terra_Carvao.h" />
+    <ClInclude Include="Terra_Diamante.h" />
+    <ClInclude Include="Terra_Ferro.h" />
+    <ClInclude Include="Terra_frango.h" />
+    <ClInclude Include="Terra_Ouro.h" />
+    <ClInclude Include="Terreno_Duro.h" />
+    <ClInclude Include="Terreno_mole.h" />
+    <ClInclude Include="Twist.h" />
+    <ClInclude Include="Utensilios.h" />
+    <ClInclude Include="Vazio.h" />
+    <ClInclude Include="Viga.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

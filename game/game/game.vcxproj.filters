@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Consola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mineiro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bloco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mina.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pedra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terreno_mole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terreno_Duro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra_Aluminio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra_Carvao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra_Ferro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra_Ouro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra_Diamante.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra_frango.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Escada.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vazio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLOBALOPERATOR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Picareta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Picareta_simples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Picareta_Automatica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Martelo_Pneumatico.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utensilios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mochila.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mochila_Simples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mochila_pro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mochila_heavy_duty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lanterna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Isqueiro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Holofote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Energia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lata_Atum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bebida_Energetica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lancheira_campismo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frigorifico_Portatil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ERROR_Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamite_bloco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Twist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jogo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Consola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mineiro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bloco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mina.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLOBALOPERATOR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pedra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terreno_mole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terreno_Duro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terra_Aluminio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terra_Carvao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terra_Ferro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terra_Ouro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terra_Diamante.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terra_frango.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Escada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vazio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Picareta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Picareta_simples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Picareta_Automatica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Martelo_Pneumatico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utensilios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mochila.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mochila_Simples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mochila_pro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mochila_heavy_duty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lanterna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Isqueiro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Holofote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Energia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lata_Atum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bebida_Energetica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lancheira_campismo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frigorifico_Portatil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ERROR_Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dinamite_bloco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Twist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
